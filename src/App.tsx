@@ -1,34 +1,29 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+import NavTabs from './components/NavTabs';
+import Resume from './pages/Resume.tsx';
+import Home from './pages/Home.tsx';
+import Portfolio from './pages/Portfolio.tsx';
+import Contact from './pages/Contact.tsx';
+
 import './App.css'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
-    <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.tsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
+    <div className="portfolio"> 
+      <NavTabs />
+      <section id="home" className="container-fluid min-vh-100 d-flex align-items-center justify-content-center">
+        <Home />
+      </section>
+      <section id="portfolio" className="container-fluid min-vh-100 d-flex align-items-center justify-content-center">
+        <Portfolio />
+      </section>
+      <section id="resume" className="container-fluid min-vh-100 d-flex align-items-center justify-content-center">
+        <Resume />
+      </section>
+      <section id="contact" className="container-fluid min-vh-100 d-flex align-items-center justify-content-center">
+        <Contact />
+      </section>
+    </div>
   )
 }
 
