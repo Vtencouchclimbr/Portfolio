@@ -1,0 +1,13 @@
+ 
+@media (min-width: 1200px) {
+  .screen {
+    width: 100%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .contact-info {
+    color: rgb(28, 28, 49);
+    margin-bottom: 50px;
+  }
+} 

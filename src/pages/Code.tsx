@@ -2,8 +2,7 @@ import Footer from '../components/Footer';
 import BarNav from '../components/BarNav';
 import JsCode from '../components/jsCode';
 
-
-// import './Code.css';
+import './Code.css';
 
 export default function Code() {
   return (
