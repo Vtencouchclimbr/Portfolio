@@ -1,6 +1,6 @@
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 
-// import './Portfolio.css';
+import './Portfolio.css';
 
 import { Link } from 'react-router-dom';
 
@@ -8,6 +8,7 @@ export default function Portfolio() {
   return (
     <div className="d-flex flex-column justify-content-center flex-lg-row flex-grow-1" style={{
       minHeight: '100vh',
+      backgroundColor: `black`,
       backgroundImage: `url()`,
       backgroundSize: 'cover',
       backgroundPosition: 'center',

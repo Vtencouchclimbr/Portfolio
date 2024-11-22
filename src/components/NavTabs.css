@@ -1,0 +1,29 @@
+.btns {
+  position: fixed;
+  background-color: transparent;
+}
+
+.navTop {
+  background-color: #111;
+  padding: 10px;
+  position: absolute;
+  top: 3px;
+  left: 5px;
+  border-radius: 8px;
+}
+
+.titem {
+  background-color: #111;
+  color: rgb(208, 210, 224);
+  margin: 5px 5px;
+}
+
+.litem{
+  color: rgb(208, 210, 224);
+}
+
+.list {
+  background-color: #111;
+}
+
+  

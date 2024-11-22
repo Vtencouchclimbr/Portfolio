@@ -1,0 +1,108 @@
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow-x: hidden;
+  background-color: black;
+}
+
+@media (min-width: 1200px) {
+  .titleText {
+    color: rgb(208, 210, 224);
+  }
+}
+
+@media (min-width: 1200px) {
+  .mainContain {
+    margin-top: 100px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .img-fluid {
+    box-shadow: 10px 10px 20px 0px rgba(0, 0, 0, 0.5);
+  }
+}
+
+.signature {
+  color: rgb(208, 210, 224);
+}
+
+.card-text {
+  color: rgb(208, 210, 224);
+}
+
+.titleText {
+  color: rgb(208, 210, 224);
+}
+
+.media-tab {
+  display: none;
+}
+
+@media (min-width: 1200px) {
+  .media-tab {
+    display: block;
+    width: 50px;
+    height: 100px;
+    position: absolute;
+    left: 1852px;
+    top: 80%;
+  }
+}
+@media (min-width: 1200px) {
+  .titleText {
+    display: flex;
+    flex-direction: column;
+    font-size: 40px;
+    
+  }
+}
+
+@media (min-width: 1200px) {
+  .signature {
+    display: flex;
+    flex-direction: column;
+    rotate: 270deg;
+    font-size: 60px;
+    position: absolute;
+    right: -195px;
+    bottom: 600px;
+    font-family: Lucida Handwriting;
+    z-index: 1;
+  }
+}
+
+.myPic {
+  border-radius: 10px;
+}
+
+@media (min-width: 1200px) {
+  .myPic {
+     
+  }
+}
+
+.aboutCard {
+  background-color: rgb(63, 61, 78);
+  box-shadow: 10px 10px 20px 0px rgba(0, 0, 0, 0.5);
+}
+
+@media (min-width: 1200px) {
+  .aboutCard {
+    width: 950px;
+    margin-left: 500px;
+    margin-right: 100px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .cardContainer {
+    display: flex;
+  }
+}
+
+.welcome {
+  color: rgb(208, 210, 224);
+}

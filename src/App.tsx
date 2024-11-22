@@ -9,19 +9,36 @@ import './App.css'
 function App() {
 
   return (
-    <div className="portfolio"> 
+    <div className="container-fluid p-0 "> {/* Full width container with no padding */}
+      {/* Navbar Section */}
       <NavTabs />
-      <section id="home" className="container-fluid min-vh-100 d-flex align-items-center justify-content-center">
-        <Home />
+      
+      {/* Home Section */}
+      <section id="home" className="home1">
+        <div className="">
+          <Home />
+        </div>
       </section>
-      <section id="portfolio" className="container-fluid min-vh-100 d-flex align-items-center justify-content-center">
-        <Portfolio />
+
+      {/* Portfolio Section */}
+      <section id="portfolio" className="bg-light">
+        <div className="">
+          <Portfolio />
+        </div>
       </section>
-      <section id="resume" className="container-fluid min-vh-100 d-flex align-items-center justify-content-center">
-        <Resume />
+
+      {/* Resume Section */}
+      <section id="resume" className="">
+        <div className="">
+          <Resume />
+        </div>
       </section>
-      <section id="contact" className="container-fluid min-vh-100 d-flex align-items-center justify-content-center">
-        <Contact />
+
+      {/* Contact Section */}
+      <section id="contact" className="bg-light ">
+        <div className="">
+          <Contact />
+        </div>
       </section>
     </div>
   )
