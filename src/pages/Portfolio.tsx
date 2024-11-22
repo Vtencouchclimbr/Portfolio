@@ -23,13 +23,13 @@ export default function Portfolio() {
           <div className='d-flex flex-column justify-content-center align-items-center mt-5'>
             <h2 className="portDesc">View Projects</h2>
           <Link to="/projects">
-            <button className="portDesc glow eachbtn" type="button">View Projects</button>
+            <button className="portDesc glow eachbtn btn-outline-secondary" type="button">View Projects</button>
           </Link>
           </div>
           <div className='d-flex flex-column justify-content-center align-items-center mt-5'>
           <h2 className="portDesc">View Code</h2>
           <Link to="/code">
-            <button className="portDesc glow eachbtn" type="button">View Code</button>
+            <button className="portDesc glow eachbtn btn-outline-secondary" type="button">View Code</button>
           </Link>
           </div>
         </div>   
