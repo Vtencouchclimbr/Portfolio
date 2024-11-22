@@ -1,3 +1,6 @@
+
+
+import MediaTab from '../components/MediaTab';
 import myImage from '../utils/me3.png';
 import mountain from '../utils/mountain.png';
 import './Home.css';
@@ -13,8 +16,12 @@ export default function Home() {
         backgroundRepeat: 'no-repeat',
       }}
     >
+      <div className='media-tab'>
+      <MediaTab />
+      </div>
       {/* Main Content */}
-      <div className="container-fluid d-flex flex-column flex-lg-row justify-content-center align-items-center py-5">
+      <div className="mainContain container-fluid d-flex flex-column flex-lg-row justify-content-center align-items-center py-5">
+      
         {/* Left Section with Text */}
         <div className="col-12 col-lg-6 d-flex justify-content-center align-items-start mb-5 mb-lg-0">
           <div className="cardContainer d-flex flex-column justify-content-center align-items-center p-3 w-100">
@@ -24,8 +31,11 @@ export default function Home() {
             <div className="aboutCard card shadow-lg">
               <div className="card-body">
                 <p style={{color:'rgb(244, 245, 247)'}} className="card-text">
-                  In order to get acquainted. I want to take a minute to introduce myself. Here is a little about me: Originally from Maryland, I have lived and worked in different parts of the country for a lot of years. Starting as a field Land Surveyor, then eventually moving to an office position (not an easy transition), I started from the bottom and worked my way into positions where I was responsible for coordinating and training surveyors as well as preparing data for production. Consequently, I spent a lot of time working in the Civil Engineering and design field. Eventually, I would dabble in Structural Engineering as well. What I found is that all these practices carry a common thread. They all use set parameters developed directly for their purpose and nearly if not always include properties like a need to fulfill clients expectations, conventional naming and structure, cooperation and communication between members of the participating work groups, and the list goes on. These qualities make a successful engineering team in my experience. I not only bring in my professional experience, but I also bring a plethora of skillsets a person can only develop while leading. After completing a complex and challenging, six-month, full stack development bootcamp, I am excited to learn a ton more about development and find a place where an ambitious person can become successful. I risked and sacrificed to get to this point, and I certainly appreciate you taking the time to view my portfolio. Please enjoy.
-
+                Hello, my name is Jesse Anderson. Hailing originally from Maryland, my career journey has taken me across various regions of the U.S..<br />
+                I began my professional life as a Field Land Surveyor, which required a significant adjustment when I transitioned to an office role. Over the years, I've climbed the ranks, taking on responsibilities for coordinating and training surveyors, and managing data for production processes. My experience spans Civil Engineering and extends into Structural Engineering, revealing a universal thread among these disciplines: adherence to purpose-specific parameters, client expectation management, standardized nomenclature, and effective inter-team collaboration.<br/>
+                My background has equipped me not just with technical know-how but also with leadership skills.<br />
+                Recently, I've expanded my expertise by completing an intensive six-month full stack development bootcamp, fueling my ambition to delve deeper into software development. I am eager to leverage my diverse experience in an environment where my drive to succeed can flourish.<br />
+                Thank you for considering my portfolio. I look forward to the opportunity to contribute and grow with your team.<br />
 -Jesse
 
                 </p>
@@ -42,7 +52,7 @@ export default function Home() {
               Full Stack Developer<br />&&<br />Software Engineer
             </h2>
             <img
-              className="img-fluid myPic mb-3"
+              className="myPic img-fluid mb-3"
               style={{ maxWidth: '200px' }}
               src={myImage}
               alt="Image of the developer"

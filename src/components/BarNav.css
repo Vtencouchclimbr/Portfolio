@@ -7,14 +7,12 @@
 .barnav1 {
   display: flex;
   margin-top: 10px;
-
 }
 
 .barnavItem {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 10px;
   margin: 5px;
   border-radius: 10px;
 }
@@ -46,7 +44,7 @@
 .glo {
   min-width: 40px;
   width: 80px;
-  height: 50px;
+  height: 45px;
   border: none;
   outline: none;
   color: #fff;

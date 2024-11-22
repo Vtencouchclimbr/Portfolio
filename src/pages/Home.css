@@ -13,17 +13,15 @@ html, body {
   }
 }
 
-
-
 @media (min-width: 1200px) {
-  .img-fluid {
-    box-shadow: 10px 10px 20px 0px rgba(0, 0, 0, 0.5);
+  .mainContain {
+    margin-top: 100px;
   }
 }
 
 @media (min-width: 1200px) {
-  .container2 {
-  
+  .img-fluid {
+    box-shadow: 10px 10px 20px 0px rgba(0, 0, 0, 0.5);
   }
 }
 
@@ -37,6 +35,29 @@ html, body {
 
 .titleText {
   color: rgb(208, 210, 224);
+}
+
+.media-tab {
+  display: none;
+}
+
+@media (min-width: 1200px) {
+  .media-tab {
+    display: block;
+    width: 50px;
+    height: 100px;
+    position: absolute;
+    left: 1852px;
+    top: 80%;
+  }
+}
+@media (min-width: 1200px) {
+  .titleText {
+    display: flex;
+    flex-direction: column;
+    font-size: 40px;
+    
+  }
 }
 
 @media (min-width: 1200px) {
@@ -53,31 +74,13 @@ html, body {
   }
 }
 
-@media (min-width: 1200px) {
-  .jobTitle {
-    font-size: 60px;
-    position: absolute;
-    right: 200px;
-    bottom: 275px;
-    font-family: Lucida Handwriting;
-    z-index: 1;
-  }
-}
-
-@media (min-width: 1200px) {
-  .card-text {
-    
-  }
-}
-
 .myPic {
   border-radius: 10px;
 }
 
 @media (min-width: 1200px) {
   .myPic {
-    max-width: 400px;
-    max-height: 600px;
+     
   }
 }
 
@@ -89,29 +92,17 @@ html, body {
 @media (min-width: 1200px) {
   .aboutCard {
     width: 950px;
-    
-  }
-}
-
-@media (min-width: 1200px) {
-  .container1 {
-    
+    margin-left: 500px;
+    margin-right: 100px;
   }
 }
 
 @media (min-width: 1200px) {
   .cardContainer {
     display: flex;
-    border: solid 1px white;
   }
 }
 
 .welcome {
   color: rgb(208, 210, 224);
-}
-
-@media (min-width: 1200px) {
-  .welcome {
-
-  }
 }
