@@ -7,6 +7,7 @@ import bookSearch from "../utils/projectThumbnails/bookSearch.png";
 import testSuite from "../utils/projectThumbnails/testSuite.png";
 import socialNetwork from "../utils/projectThumbnails/socialNetwork.png";
 import Todo from "../utils/projectThumbnails/Todo.png";
+import kanBanjs from "../utils/projectThumbnails/kanBanjs.png";
 
 import "./Projects.css";
 
@@ -28,11 +29,49 @@ export default function Projects() {
       <div className="col-12 col-md-6 col-lg-4 mb-4 mt-4 d-flex flex-column align-items-center">
         <h1 className="projName">Projects</h1>
         <p className="text-center desc">
-          Here are some of the projects I have worked on. Click on the title to
-          view the GitHub repo.
+          Here are some of the projects I have been working on. Click on the
+          title to view the GitHub repo.
         </p>
       </div>
       <div className="imgbox">
+        <div className="imgboxitem col-12 col-md-6 col-lg-4 mb-2">
+          <img src={kanBanjs} className="img img-fluid" alt="Project 1" />
+          <div className="d-flex align-items-baseline">
+            <h3 className="click">Click Here!</h3>
+            <a
+              className="projLink"
+              href="https://github.com/Vtencouchclimbr/Kanban-React"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                height="12px"
+                viewBox="0 -960 960 960"
+                width="12px"
+                fill="#e8eaed"
+              >
+                <path d="m560-240-56-58 142-142H160v-80h486L504-662l56-58 240 240-240 240Z" />
+              </svg>Kanban Board<svg
+                xmlns="http://www.w3.org/2000/svg"
+                height="12px"
+                viewBox="0 -960 960 960"
+                width="12px"
+                fill="#e8eaed"
+              >
+                <path d="m313-440 224 224-57 56-320-320 320-320 57 56-224 224h487v80H313Z" />
+              </svg>
+            </a>
+            <h3 className="click">Click Here!</h3>
+          </div>
+          <p className="desc">
+            A React-based Kanban board for task management, utilizing React
+            Context for state management. This application allows users to add,
+            move, and delete tasks across "To Do", "In Progress", and "Done"
+            columns, with a responsive design using Bootstrap for mobile and
+            desktop views.
+          </p>
+        </div>
         <div className="imgboxitem col-12 col-md-6 col-lg-4 mb-2">
           <img src={Todo} className="img img-fluid" alt="Project 1" />
           <div className="d-flex align-items-baseline">
