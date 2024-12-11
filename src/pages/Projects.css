@@ -1,6 +1,6 @@
 .barnav {
   width: 100%;
-  justify-content: center; 
+  justify-content: center;
   align-items: center;
 }
 
@@ -8,22 +8,22 @@
   box-shadow: 10px 10px 20px 0px rgba(0, 0, 0, 0.5);
 }
 
-.desc, .projName {
+.desc,
+.projName {
   color: rgb(208, 210, 224);
 }
 
 .imgbox {
-    margin-bottom: 60px;
-    
-  }
+  margin-bottom: 60px;
+}
 
 .imgboxitem {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: center;
-    text-align: center;
-  }
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+}
 
 .projLink {
   color: rgb(208, 210, 224);
@@ -43,14 +43,14 @@ hr {
 }
 
 @media (min-width: 1200px) {
-    .imgbox {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: space-evenly;
-      align-items: center;
-      margin-bottom: 100px;
-    }
+  .imgbox {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 100px;
   }
+}
 
 @media (min-width: 1200px) {
   .imgboxitem {
@@ -60,8 +60,8 @@ hr {
 }
 
 @media (min-width: 1200px) {
-    .footer {
-      width: 100%;
-      padding-top: 50px;
-    }
+  .footer {
+    width: 100%;
+    padding-top: 50px;
   }
+}

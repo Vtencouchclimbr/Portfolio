@@ -1,5 +1,5 @@
-
-html, body {
+html,
+body {
   margin: 0;
   padding: 0;
   height: 100%;
@@ -7,7 +7,46 @@ html, body {
   background-color: black;
 }
 
-@media (min-width: 1400px) {
+.media-tab {
+  display: none;
+}
+
+.card-text {
+  color: rgb(208, 210, 224);
+}
+
+.aboutCard {
+  background-color: rgb(63, 61, 78);
+  box-shadow: 10px 10px 20px 0px rgba(0, 0, 0, 0.5);
+}
+
+.myPic {
+  border-radius: 10px;
+}
+
+.signature {
+  color: rgb(208, 210, 224);
+}
+
+.titleText {
+  color: rgb(208, 210, 224);
+}
+
+.welcome {
+  color: rgb(208, 210, 224);
+}
+
+@media (min-width: 320px) { }
+
+@media (min-width: 576px) { }
+
+@media (min-width: 768px) { }
+
+@media (min-width: 992px) { }
+
+@media (min-width: 1200px) { }
+
+/* @media (min-width: 1400px) {
   .mainContain {
     margin-top: 100px;
   }
@@ -19,21 +58,7 @@ html, body {
   }
 }
 
-.signature {
-  color: rgb(208, 210, 224);
-}
 
-.card-text {
-  color: rgb(208, 210, 224);
-}
-
-.titleText {
-  color: rgb(208, 210, 224);
-}
-
-.media-tab {
-  display: none;
-}
 
 @media (min-width: 1400px) {
   .media-tab {
@@ -93,14 +118,22 @@ html, body {
   }
 }
 
-.myPic {
-  border-radius: 10px;
+@media (min-width: 700px) {
+  .signature {
+    display: flex;
+    flex-direction: column;
+    rotate: 270deg;
+    font-size: 60px;
+    position: absolute;
+    right: -195px;
+    bottom: 500px;
+    font-family: Lucida Handwriting;
+    z-index: 1;
+  }
 }
 
-.aboutCard {
-  background-color: rgb(63, 61, 78);
-  box-shadow: 10px 10px 20px 0px rgba(0, 0, 0, 0.5);
-}
+
+
 
 @media (min-width: 1400px) {
   .aboutCard {
@@ -116,6 +149,4 @@ html, body {
   }
 }
 
-.welcome {
-  color: rgb(208, 210, 224);
-}
+ */
