@@ -1,5 +1,5 @@
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faLinkedin, faGithub, faXTwitter } from '@fortawesome/free-brands-svg-icons';
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons";
 
 export default function MediaTab() {
   return (
@@ -11,7 +11,7 @@ export default function MediaTab() {
         rel="noopener noreferrer"
         className="mx-2"
       >
-        <FontAwesomeIcon icon={faLinkedin} style={{ color: '#0e76a8' }} />
+        <FontAwesomeIcon icon={faLinkedin} style={{ color: "#0e76a8" }} />
       </a>
 
       {/* GitHub */}
@@ -21,17 +21,7 @@ export default function MediaTab() {
         rel="noopener noreferrer"
         className="mx-2"
       >
-        <FontAwesomeIcon icon={faGithub} style={{ color: '#97e3b8' }} />
-      </a>
-
-      {/* X (Twitter) */}
-      <a
-        href="https://x.com/JesseAnder28869"
-        target="_blank"
-        rel="noopener noreferrer"
-        className="mx-2"
-      >
-        <FontAwesomeIcon icon={faXTwitter} style={{ color: '#e1e7a6' }} />
+        <FontAwesomeIcon icon={faGithub} style={{ color: "#97e3b8" }} />
       </a>
     </div>
   );
