@@ -53,7 +53,7 @@ export default function Home() {
                 -Jesse
               </ul>
             </div> */}
-            <div className="card shadow-lg bg-dark">
+            <div className="about-card card shadow-lg bg-dark">
               <div className="card-body bg-dark">
                 <p className="text-light">
                   Hello, my name is Jesse Anderson. Hailing originally from
