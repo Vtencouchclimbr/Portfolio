@@ -19,6 +19,12 @@ body {
   color: rgb(208, 210, 224);
 }
 
+@media screen and (min-width: 1280px) {
+  .about-card {
+    margin-left: 200px;
+  }
+}
+
 /* Smallest smartphones */
 @media screen and (max-width: 320px) {
 }
