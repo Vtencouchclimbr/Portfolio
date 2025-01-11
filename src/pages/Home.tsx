@@ -1,5 +1,6 @@
 import myImage from "../utils/me3.png";
 import mountain from "../utils/mountain.png";
+import "./Home.css";
 
 export default function Home() {
   return (
@@ -15,79 +16,35 @@ export default function Home() {
     >
       {/* Main Content */}
       <div className="container-fluid d-flex flex-column flex-lg-row justify-content-center align-items-center py-5">
-        {/* Left Section with Text */}
-        <div className="col-12 col-lg-6 mb-4 mb-lg-0">
-          <div className="d-flex flex-column justify-content-center align-items-center p-3 w-100">
-            {/* <div className="btn-group">
-              <button
-                className="btn btn-secondary btn-sm dropdown-toggle bg-dark"
-                type="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
-              >
-                About Me
-              </button>
-              <ul className="dropdown-menu">
-                Hello, my name is Jesse Anderson. Hailing originally from
-                Maryland, my career journey has taken me across various regions
-                of the U.S..<br />
-                I began my professional life as a Field Land Surveyor, which
-                required a significant adjustment when I transitioned to an
-                office role. Over the years, I've climbed the ranks, taking on
-                responsibilities for coordinating and training surveyors, and
-                managing data for production processes. My experience spans
-                Civil Engineering and extends into Structural Engineering,
-                revealing a universal thread among these disciplines: adherence
-                to purpose-specific parameters, client expectation management,
-                standardized nomenclature, and effective inter-team
-                collaboration.<br />
-                My background has equipped me not just with technical know-how
-                but also with leadership skills.<br />
-                Recently, I've expanded my expertise by completing an intensive
-                six-month full stack development bootcamp, fueling my ambition
-                to delve deeper into software development. I am eager to
-                leverage my diverse experience in an environment where my drive
-                to succeed can flourish.<br />
-                Thank you for considering my portfolio. I look forward to the
-                opportunity to contribute and grow with your team.<br />
-                -Jesse
-              </ul>
-            </div> */}
-            <div className="about-card card shadow-lg bg-dark">
-              <div className="card-body bg-dark">
-                <p className="text-light">
-                  Hello, my name is Jesse Anderson. Hailing originally from
-                  Maryland, my career journey has taken me across various
-                  regions of the U.S..<br />
-                  I began my professional life as a Field Land Surveyor, which
-                  required a significant adjustment when I transitioned to an
-                  office role. Over the years, I've climbed the ranks, taking on
-                  responsibilities for coordinating and training surveyors, and
-                  managing data for production processes. My experience spans
-                  Civil Engineering and extends into Structural Engineering,
-                  revealing a universal thread among these disciplines:
-                  adherence to purpose-specific parameters, client expectation
-                  management, standardized nomenclature, and effective
-                  inter-team collaboration.<br />
-                  My background has equipped me not just with technical know-how
-                  but also with leadership skills.<br />
-                  Recently, I've expanded my expertise by completing an
-                  intensive six-month full stack development bootcamp, fueling
-                  my ambition to delve deeper into software development. I am
-                  eager to leverage my diverse experience in an environment
-                  where my drive to succeed can flourish.<br />
-                  Thank you for considering my portfolio. I look forward to the
-                  opportunity to contribute and grow with your team.<br />
-                  -Jesse
-                </p>
-              </div>
-            </div>
+        <div className="about-card card shadow-lg bg-dark">
+          <div className="card-body bg-dark">
+            <p className="text-light">
+              My name is Jesse Anderson. I am a seasoned professional with over
+              15 years of experience, including more than 10 years working in
+              the field as a Land Surveyor. My expertise extends to AutoCAD
+              drafting and design, where I've worked for 6 years with data
+              files, AutoCAD Civil3D and Advance Steel as well as Trimble
+              Business Center. I have produced construction documents including
+              preparation for stakeout, ALTA surveys, boundary surveys,
+              exhibits, topographical maps and other document types, using
+              parcel maps for property research and preparing for submission to
+              county clerks. My experience continues beyond what I've stated.
+              Recently, I completed a Full Stack Web Development bootcamp at the
+              University of Utah, proving my interest in continuing education.
+              Having completed a course which includes cutting edge technologies
+              including front end, back end, api's, database software, testing
+              pipelines, and the latest processes and procedures relevant to
+              developing software with potential for scalability and mobile
+              first designs. Thank you for considering my profile. I welcome the
+              opportunity to discuss how my experience can contribute to your
+              projects.
+            </p>
           </div>
         </div>
-
         {/* Right Section with Image */}
         <div className="col-12 col-lg-6 text-center">
           <h2 className="mb-3 text-light">
+            CAD Technician,<br />
             Full Stack Developer<br />&&<br />Software Engineer
           </h2>
           <img
