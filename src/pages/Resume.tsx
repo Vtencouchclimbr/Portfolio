@@ -53,9 +53,9 @@ export default function Resume() {
         >
           <button
             style={{ color: "rgb(208, 210, 224)", visibility: "hidden" }}
-            className="btn btn-lg"
+            className="btn btn-lg bg-dark"
           >
-            Download PDF
+            Download
           </button>
         </a>
 

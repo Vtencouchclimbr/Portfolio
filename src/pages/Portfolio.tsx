@@ -17,24 +17,34 @@ export default function Portfolio() {
         backgroundRepeat: "no-repeat"
       }}
     >
-      <div className="information d-flex flex-column justify-content-center align-items-center flex-lg-row flex-grow-1">
+      <div className="information d-flex flex-column justify-content-center align-items-center text-align-center flex-lg-row flex-grow-1">
         <div className="btns1">
           <h2 className="portDesc">
-            Here are some of the projects I've been working on recently
+            Some recent software delevopment projects can be found by clicking
+            below
           </h2>
-          {/* <h3 className="portDesc">
-            along with some code I have been cataloging while problem solving
-          </h3>
-          <h3 className="portDesc">(Code better viewed on</h3>
-          <h3 className="portDesc">full sized screens)</h3> */}
           <div className="d-flex flex-column justify-content-center align-items-center mt-5">
-            <h2 className="portDesc">View Projects</h2>
             <Link to="/projects">
               <button
-                className="portDesc glow eachbtn btn-outline-secondary"
+                className="glow eachbtn btn-outline-secondary bg-dark"
                 type="button"
               >
-                View Projects
+                View Software Projects
+              </button>
+            </Link>
+            <hr />
+          </div>
+          <h2 className="portDesc">
+            Examples of Land Survey and Drafting experience can be found by
+            clicking below
+          </h2>
+          <div className="d-flex flex-column justify-content-center align-items-center mt-5">
+            <Link to="/cad">
+              <button
+                className="glow eachbtn btn-outline-secondary bg-dark"
+                type="button"
+              >
+                View Land Survey Experience
               </button>
             </Link>
           </div>
