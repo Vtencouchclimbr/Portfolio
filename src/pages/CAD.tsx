@@ -30,10 +30,10 @@ export default function Projects() {
           of essential documents including Plat Maps, Boundary Survey Reports,
           Topographic Survey Maps, ALTA/NSPS Land Title Surveys, Location or
           Improvement Surveys, Legal Descriptions, Easement and Right of Way
-          Documents, Subdivision Plats, Certificates of Survey, detailed
-          Surveyor's Field Notes, Elevation Certificates, and As-Built Surveys.
-          As well as producing construction calculations and coordinating field
-          crews. This was preceeded by over 10 years of field land surveying.
+          Documents, Subdivision Plats, Elevation Certificates, and As-Built
+          Surveys. As well as producing construction calculations and
+          coordinating field crews. This was preceeded by over 10 years of field
+          land surveying.
         </p>
       </div>
       <div className="d-flex flex-column align-items-center">
