@@ -1,4 +1,5 @@
 import myImage from "../utils/me3.png";
+import badge from "../utils/badge.png";
 import mountain from "../utils/mountain.png";
 import "./Home.css";
 
@@ -11,7 +12,7 @@ export default function Home() {
         backgroundImage: `url(${mountain})`,
         backgroundSize: "cover",
         backgroundPosition: "center",
-        backgroundRepeat: "no-repeat"
+        backgroundRepeat: "no-repeat",
       }}
     >
       {/* Main Content */}
@@ -44,15 +45,32 @@ export default function Home() {
         {/* Right Section with Image */}
         <div className="col-12 col-lg-6 text-center">
           <h2 className="mb-3 text-light">
-            CAD Technician,<br />
-            Full Stack Developer<br />&&<br />Software Engineer
+            CAD Technician,
+            <br />
+            Full Stack Developer
+            <br />
+            &&
+            <br />
+            Software Engineer
           </h2>
-          <img
-            className="img-fluid mb-3 rounded shadow-lg"
-            style={{ maxWidth: "200px", margin: "0 auto" }}
-            src={myImage}
-            alt="Image of the developer"
-          />
+          <div className="d-flex flex-column">
+            <img
+              className="img-fluid mb-3 rounded shadow-lg"
+              style={{ maxWidth: "200px", margin: "0 auto" }}
+              src={myImage}
+              alt="Image of the developer"
+            />
+            <img
+              className="img-fluid mb-3 rounded shadow-lg"
+              style={{
+                maxWidth: "150px",
+                maxHeight: "150px",
+                margin: "0 auto",
+              }}
+              src={badge}
+              alt="badge"
+            />
+          </div>
         </div>
       </div>
     </div>
