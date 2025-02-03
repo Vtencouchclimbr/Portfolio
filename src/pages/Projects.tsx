@@ -8,6 +8,7 @@ import testSuite from "../utils/projectThumbnails/testSuite.png";
 import socialNetwork from "../utils/projectThumbnails/socialNetwork.png";
 import Todo from "../utils/projectThumbnails/Todo.png";
 import kanBanjs from "../utils/projectThumbnails/kanBanjs.png";
+import dictionary from "../utils/projectThumbnails/dictionary.png";
 
 import "./Projects.css";
 
@@ -20,7 +21,7 @@ export default function Projects() {
         backgroundImage: `url()`,
         backgroundSize: "cover",
         backgroundPosition: "center",
-        backgroundRepeat: "no-repeat"
+        backgroundRepeat: "no-repeat",
       }}
     >
       <div className="barnav">
@@ -34,6 +35,45 @@ export default function Projects() {
         </p>
       </div>
       <div className="imgbox">
+        <div className="imgboxitem col-12 col-md-6 col-lg-4 mb-2">
+          <img src={dictionary} className="img img-fluid" alt="Project 1" />
+          <div className="d-flex align-items-baseline">
+            <h3 className="click">Click Here!</h3>
+            <a
+              className="projLink"
+              href="https://github.com/Vtencouchclimbr/Dictionary-React"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                height="12px"
+                viewBox="0 -960 960 960"
+                width="12px"
+                fill="#e8eaed"
+              >
+                <path d="m560-240-56-58 142-142H160v-80h486L504-662l56-58 240 240-240 240Z" />
+              </svg>
+              Dictionary
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                height="12px"
+                viewBox="0 -960 960 960"
+                width="12px"
+                fill="#e8eaed"
+              >
+                <path d="m313-440 224 224-57 56-320-320 320-320 57 56-224 224h487v80H313Z" />
+              </svg>
+            </a>
+            <h3 className="click">Click Here!</h3>
+          </div>
+          <p className="desc">
+            A React-based Dictionary, utilizing React Context for state
+            management and Effect for API calls. This application allows users
+            to search for a word to be defined, and a responsive design uses
+            Bootstrap for mobile and desktop views.
+          </p>
+        </div>
         <div className="imgboxitem col-12 col-md-6 col-lg-4 mb-2">
           <img src={kanBanjs} className="img img-fluid" alt="Project 1" />
           <div className="d-flex align-items-baseline">
@@ -52,7 +92,9 @@ export default function Projects() {
                 fill="#e8eaed"
               >
                 <path d="m560-240-56-58 142-142H160v-80h486L504-662l56-58 240 240-240 240Z" />
-              </svg>Kanban Board<svg
+              </svg>
+              Kanban Board
+              <svg
                 xmlns="http://www.w3.org/2000/svg"
                 height="12px"
                 viewBox="0 -960 960 960"
@@ -90,7 +132,9 @@ export default function Projects() {
                 fill="#e8eaed"
               >
                 <path d="m560-240-56-58 142-142H160v-80h486L504-662l56-58 240 240-240 240Z" />
-              </svg>Todo List<svg
+              </svg>
+              Todo List
+              <svg
                 xmlns="http://www.w3.org/2000/svg"
                 height="12px"
                 viewBox="0 -960 960 960"
@@ -127,7 +171,9 @@ export default function Projects() {
                 fill="#e8eaed"
               >
                 <path d="m560-240-56-58 142-142H160v-80h486L504-662l56-58 240 240-240 240Z" />
-              </svg>Tech Shopper Pro<svg
+              </svg>
+              Tech Shopper Pro
+              <svg
                 xmlns="http://www.w3.org/2000/svg"
                 height="12px"
                 viewBox="0 -960 960 960"
@@ -166,7 +212,9 @@ export default function Projects() {
                 fill="#e8eaed"
               >
                 <path d="m560-240-56-58 142-142H160v-80h486L504-662l56-58 240 240-240 240Z" />
-              </svg>Social Network App<svg
+              </svg>
+              Social Network App
+              <svg
                 xmlns="http://www.w3.org/2000/svg"
                 height="12px"
                 viewBox="0 -960 960 960"
@@ -214,7 +262,9 @@ export default function Projects() {
                 fill="#e8eaed"
               >
                 <path d="m560-240-56-58 142-142H160v-80h486L504-662l56-58 240 240-240 240Z" />
-              </svg>Kanban Board<svg
+              </svg>
+              Kanban Board
+              <svg
                 xmlns="http://www.w3.org/2000/svg"
                 height="12px"
                 viewBox="0 -960 960 960"
@@ -258,7 +308,9 @@ export default function Projects() {
                 fill="#e8eaed"
               >
                 <path d="m560-240-56-58 142-142H160v-80h486L504-662l56-58 240 240-240 240Z" />
-              </svg>Book Search Engine<svg
+              </svg>
+              Book Search Engine
+              <svg
                 xmlns="http://www.w3.org/2000/svg"
                 height="12px"
                 viewBox="0 -960 960 960"
@@ -303,7 +355,9 @@ export default function Projects() {
                 fill="#e8eaed"
               >
                 <path d="m560-240-56-58 142-142H160v-80h486L504-662l56-58 240 240-240 240Z" />
-              </svg>Testing Suite<svg
+              </svg>
+              Testing Suite
+              <svg
                 xmlns="http://www.w3.org/2000/svg"
                 height="12px"
                 viewBox="0 -960 960 960"
